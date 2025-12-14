@@ -1,1 +1,47 @@
-/* your code */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  padding: 40px;
+}
+
+.table-wrapper {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden; /* important for rounded corners */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #1f4f82;
+}
+
+th {
+  color: white;
+  text-align: left;
+  padding: 16px 20px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+td {
+  padding: 16px 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Zebra striping */
+tbody tr:nth-child(even) {
+  background-color: #e0e0e0;
+}
+
+/* Optional hover effect */
+tbody tr:hover {
+  background-color: #d6e4f0;
+}
